@@ -1,0 +1,2 @@
+add_library(solarSystemLogik solarSystemLogik.h solarSystemLogik.cpp point_type.hpp)
+set_target_properties(solarSystemLogik PROPERTIES LINKER_LANGUAGE CXX)
